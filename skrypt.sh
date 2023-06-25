@@ -1,2 +1,5 @@
 #!/bin/bash
-current_date_time=$(date)
+
+if [[ "$1" =="--date" ]]; then
+echo "$(date)"
+fi
